@@ -2,15 +2,13 @@
 
 namespace Tests\Feature;
 
-// use Illuminate\Foundation\Testing\RefreshDatabase;
-use Illuminate\Foundation\Testing\DatabaseMigrations;
+use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Support\Arr;
 use Tests\TestCase;
 
 class BaseTest extends TestCase
 {
-    // use RefreshDatabase;
-    use DatabaseMigrations;
+    use RefreshDatabase;
 
     /**
      * A basic test example.
